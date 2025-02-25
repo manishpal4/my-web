@@ -9,14 +9,14 @@ const page = () => {
       <div className="bg-zinc-200 pt-16 ">
         <div className="  pb-10 overflow-hidden  bg-zinc-200 lg:flex flex-col items-center sm:justify-center rounded-lg">
           <div>
-            <div className="mx-5">
+            <div className="">
               <h1 className="text-black font-bold text-5xl text-center font-f1">
                 Works
               </h1>
               <p className="text-black/30 mt-3 mb-7 font-bold flex font-f2 text-lg justify-center">
                 Click on projects to see repositories.
               </p>
-              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-4 ">
+              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-5 ">
                 <a
                   href="https://github.com/manishpal4/Ai_chatbot"
                   target="_blank"
