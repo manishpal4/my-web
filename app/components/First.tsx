@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-gray-400 w-full h-screen flex flex-col landscape:flex-row md:flex-cols">
+      <div className="bg-gray-400 w-full min-h-screen flex flex-col landscape:flex-row md:flex-cols">
         {/* First section */}
         <motion.div
           initial={{ opacity: 0, y: -100 }}
@@ -71,7 +71,7 @@ export default function Home() {
           </motion.span>
 
           {/* Bottom-left text */}
-          <div className="absolute text-black bottom-10 landscape:left-14 left-6">
+          <div className="absolute text-black bottom-16 landscape:bottom-10 landscape:left-14 left-6">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}

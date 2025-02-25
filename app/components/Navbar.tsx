@@ -60,7 +60,7 @@ const Navbar = () => {
             {/* Navigation Links */}
             <div className="flex justify-between">
               <div className="h-full  ">
-                <ul className="flex flex-col font-bold gap-4 landscape:text-7xl text-5xl items-left">
+                <ul className="flex font-f1 flex-col font-bold gap-4 landscape:text-7xl text-5xl items-left">
                   <li>
                     <Link href="/Stack" onClick={toggleMenu}>
                       Stack
