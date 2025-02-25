@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="px-5 py-1 lg:py-3 fixed w-full backdrop-blur-lg lg:backdrop-blur-none top-0 left-0 right-0 z-50">
+      <nav className="px-5 py-1 lg:py-3 w-screen fixed backdrop-blur-lg lg:backdrop-blur-none top-0 left-0 right-0 z-50">
         <div className="font-f1 flex  justify-between items-center">
           {/* Logo Section */}
           <Link href="/" passHref>
@@ -47,7 +47,7 @@ const Navbar = () => {
             animate={{ y: "0%" }} // Slide down
             exit={{ y: "-100%" }} // Slide up when closing
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="fixed inset-0 bg-black w-full text-white flex flex-col items-start justify-center z-50 px-8 py-10 h-screen"
+            className="fixed inset-0 bg-black w-screen text-white flex flex-col items-start justify-center z-50 px-8 py-10 h-screen"
           >
             {/* Close Button */}
             <button

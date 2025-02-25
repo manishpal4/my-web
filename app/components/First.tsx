@@ -51,12 +51,12 @@ export default function Home() {
 
           {/* Floating span */}
           <motion.span
-            animate={{ x: moveX, y: [0, -5, 0] }}
+            animate={{ x: moveX, y: [0, -10, 0] }}
             transition={{
               x: { duration: 0.5, ease: "easeInOut" },
               y: { duration: 2, repeat: Infinity, ease: "easeInOut" },
             }}
-            className="absolute landscape:w-52 landscape:h-64 w-60 h-64 bg-white py-2 flex flex-col justify-between shadow-md"
+            className="absolute landscape:w-52 landscape:h-64 w-56 h-64 bg-white py-2 flex flex-col justify-between shadow-md"
           >
             <div className="px-2 flex text-black justify-between">
               <p className="font-f2">Based in India</p>
@@ -71,7 +71,7 @@ export default function Home() {
           </motion.span>
 
           {/* Bottom-left text */}
-          <div className="absolute text-black bottom-28 landscape:bottom-10 landscape:left-14 left-6">
+          <div className="absolute text-black bottom-24 landscape:bottom-10 landscape:left-14 left-6">
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -95,7 +95,7 @@ export default function Home() {
 
         {/* Second section */}
         <div className="w-full h-screen landscape:w-1/3 relative bg-zinc-300 px-10 flex flex-col items-center justify-center">
-          <h1 className="font-f1 text-4xl text-black md:text-3xl lg:text-4xl leading-4 text-center">
+          <h1 className="font-f1 text-3xl text-black md:text-3xl lg:text-4xl leading-5 text-center">
             THROUGH <span className="font-f2">my</span> GAZE
           </h1>
 

@@ -4,10 +4,10 @@ import React from "react";
 export default function ImageCard() {
   return (
     <div className="px-7 landscape:flex items-center justify-between py-10 bg-black landscape:h-1/2">
-      <div className="mb-10 mr-10">
+      <div className="mb-10">
         <h1 className="text-8xl font-light text-white font-f2">
           Some
-          <span className="font-f1 text-8xl font-light">
+          <span className="font-f1 text-6xl font-light">
             <br />
             Glimpses
           </span>
