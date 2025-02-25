@@ -97,7 +97,7 @@ const My_Stack = () => {
   ];
 
   return (
-    <div className="w-full  lg:h-screen flex pb-10 bg-zinc-200 flex-col pt-16  justify-center items-center text-black relative">
+    <div className="w-full   flex pb-10 bg-zinc-200 flex-col pt-16 landscape:pt-20  justify-center items-center text-black relative">
       {/* Heading positioned above the background */}
       <h1 className="  font-f1 relative z-10  text-5xl font-extrabold">My Stack</h1>
       <h1 className="text-black/35 mt-3 font-f2 relative z-10 text-lg font-bold">Feel free to explore.</h1>

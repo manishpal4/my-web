@@ -6,7 +6,7 @@ import Corrosoul from "@/app/components/Corrosoul";
 const page = () => {
   return (
     <>
-      <div className="bg-zinc-200 pt-16 ">
+      <div className="bg-zinc-200 pt-16 landscape:pt-24 ">
         <div className="  pb-10 overflow-hidden  bg-zinc-200 lg:flex flex-col items-center sm:justify-center rounded-lg">
           <div>
             <div className="">
@@ -16,7 +16,7 @@ const page = () => {
               <p className="text-black/30 mt-3 mb-7 font-bold flex font-f2 text-lg justify-center">
                 Click on projects to see repositories.
               </p>
-              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-5 ">
+              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-5 landscape:mx-24 ">
                 <a
                   href="https://github.com/manishpal4/Ai_chatbot"
                   target="_blank"
@@ -39,7 +39,7 @@ const page = () => {
                 </a>
               </div>
 
-              <div className="flex-cols bg-white rounded-lg  px-3 py-6 mx-4 mt-5 ">
+              <div className="flex-cols bg-white rounded-lg  px-3 py-6 mx-5 mt-10 landscape:mx-24  ">
                 <a
                   href="https://github.com/manishpal4/imageEditing"
                   target="_blank"
@@ -63,7 +63,7 @@ const page = () => {
                 </a>
               </div>
 
-              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-4 mt-5">
+              <div className=" flex-cols bg-white rounded-lg  px-3 py-6 mx-5 mt-10 landscape:mx-24">
                 <a
                   href="https://github.com/manishpal4/Bubble-Game"
                   target="_blank"
