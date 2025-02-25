@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-gray-400 w-full min-h-screen flex flex-col landscape:flex-row md:flex-cols">
+      <div className="bg-gray-400 w-full h-screen flex flex-col landscape:flex-row md:flex-cols">
         {/* First section */}
         <motion.div
           initial={{ opacity: 0, y: -100 }}
