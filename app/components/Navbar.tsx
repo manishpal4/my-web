@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="px-5 py-1 lg:py-3 w-screen fixed backdrop-blur-lg lg:backdrop-blur-none top-0 left-0 right-0 z-50">
+      <nav className="px-5 py-2 lg:py-3 w-screen fixed backdrop-blur-lg lg:backdrop-blur-none top-0 left-0 right-0 z-50">
         <div className="font-f1 flex  justify-between items-center">
           {/* Logo Section */}
           <Link href="/" passHref>
