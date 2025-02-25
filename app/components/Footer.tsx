@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white font-f1 text-3xl w-full px-10 pt-20 pb-5 ">
       {/* Work With Me Section */}
-      <div className="">
+      <div className="mx-3">
         <div className="landscape:flex landscape:justify-between items-center">
-          <h1 className="mb-5 mx-7 landscape:mb-0">Work with me.</h1>
+          <h1 className="mb-5 landscape:mb-0">Work with me.</h1>
           <a href="mailto:Manish3upal@gmail.com" className="hover:underline">
             Manish3upal@gmail.com
           </a>
