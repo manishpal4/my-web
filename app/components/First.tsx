@@ -56,7 +56,7 @@ export default function Home() {
               x: { duration: 0.5, ease: "easeInOut" },
               y: { duration: 2, repeat: Infinity, ease: "easeInOut" },
             }}
-            className="absolute landscape:w-52 landscape:h-64 w-64 h-72 bg-white py-2 flex flex-col justify-between shadow-md"
+            className="absolute landscape:w-52 landscape:h-64 w-60 h-64 bg-white py-2 flex flex-col justify-between shadow-md"
           >
             <div className="px-2 flex text-black justify-between">
               <p className="font-f2">Based in India</p>
